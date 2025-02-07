@@ -1,0 +1,164 @@
+{
+  "yes": "Sí",
+  "no": "No",
+  "ok": "OK",
+  "loading": "Cargando...",
+  "input": {
+    "type": "Escribir...",
+    "select": "Seleccionar"
+  },
+  "login": {
+    "welcomeBack": "¡Bienvenido de nuevo!",
+    "welcomeBackSubtitle": "Inicie sesión para continuar",
+    "username": "Nombre de usuario",
+    "usernamePlaceholder": "Introduzca su nombre de usuario",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Introduzca su contraseña",
+    "forgotPassword": "¿Olvidó su contraseña?",
+    "login": "Iniciar sesión",
+    "genericError": "Algo salió mal, por favor inténtelo de nuevo más tarde",
+    "authError": "Nombre de usuario o contraseña incorrectos",
+    "guest": "Invitado"
+  },
+  "userSettings": {
+    "loggedInGuest": "Ha iniciado sesión como invitado",
+    "title": "Configuración del usuario",
+    "userInformation": "Información del usuario",
+    "name": "Nombre",
+    "surname": "Apellido",
+    "username": "Nombre de usuario",
+    "companyInformation": "Información de la empresa",
+    "company": "Empresa",
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "german": "Alemán",
+    "kinyarwanda": "Ikinyarwanda",
+    "offlineMaps": "Mapas sin conexión",
+    "offlineMapsSettings": "Configuración de mapas sin conexión",
+    "resetPassword": "Restablecer contraseña",
+    "logOut": "Cerrar sesión"
+  },
+  "home": {
+    "title": "Inicio",
+    "plotGroups": "Grupos de parcelas",
+    "newPlot": "Nueva parcela",
+    "syncData": "Sincronizar datos"
+  },
+  "plotGroups": {
+    "title": "Grupos de parcelas",
+    "titleNewPlot": "Elija un grupo de parcelas",
+    "newPlotGroup": "Nuevo grupo de parcelas",
+    "search": "Buscar",
+    "noData": "No se encontraron grupos de parcelas",
+    "sort": {
+      "sortBy": "Ordenar por",
+      "name": "Nombre",
+      "numberOfPlots": "Número de parcelas",
+      "id": "ID"
+    },
+    "errorFetch": "Error al obtener grupos de parcelas",
+    "card": {
+      "numberOfPlots": "Número de parcelas"
+    },
+    "newPlotGroupCreation": {
+      "savePlotGroup": "Guardar grupo de parcelas",
+      "success": "Éxito",
+      "successMessage": "Grupo de parcelas creado con éxito",
+      "ok": "OK",
+      "error": "Error",
+      "errorMessage": "Error al crear el grupo de parcelas"
+    },
+    "info": {
+      "title": "Información del grupo de parcelas",
+      "name": "Nombre"
+    },
+    "delete": {
+      "title": "Eliminar grupo de parcelas",
+      "message": "¿Está seguro de que desea eliminar este grupo de parcelas?",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "error": "Error",
+      "errorMessage": "Error al eliminar el grupo de parcelas"
+    },
+    "delete-plot": {
+      "title": "Eliminar parcela",
+      "message": "¿Está seguro de que desea eliminar esta parcela?",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "error": "Error",
+      "errorMessage": "Error al eliminar la parcela"
+    }
+  },
+  "plots": {
+    "title": "Ver parcelas",
+    "listView": "Vista de lista",
+    "mapView": "Vista de mapa",
+    "mapDownload": "Descargar mapa",
+    "mapTitle": "Título del mapa",
+    "noData": "No se encontraron parcelas",
+    "plots": "parcela/s",
+    "summary": "Resumen",
+    "offlineMapsScreen": {
+      "downloadedMaps": "Mapas descargados",
+      "noMapsDownloaded": "No se han descargado mapas sin conexión",
+      "selectYourOwnMap": "Seleccione su propio mapa",
+      "downloadThisMap": "¿Descargar este mapa?",
+      "cancel": "Cancelar",
+      "download": "Descargar",
+      "confirm": "Confirmar",
+      "sizeWarning": "Las descargas pueden ocupar hasta %{size} MB de su espacio libre",
+      "expires": "Expira %{date}",
+      "delete": "Eliminar",
+      "deleteAlert": "¿Está seguro de que desea eliminar este mapa?",
+      "locationPermissionDeniedAlert": "Acceso denegado",
+      "locationPermissionDeniedAlertMessage": "Se denegó el permiso para acceder a la ubicación",
+      "noAreaSelected": "No se ha seleccionado un área",
+      "noAreaSelectedMessage": "Por favor seleccione un área para descargar",
+      "errorTitle": "Error",
+      "errorDeleting": "Error al eliminar el paquete",
+      "errorDownloadingTitle": "Error de descarga",
+      "errorDownloading": "Error al iniciar la descarga"
+    },
+    "mapLoading": "Cargando mapa",
+    "addPlot": {
+      "newPlot": "Nueva parcela",
+      "addCurrentLocation": "Añadir ubicación actual",
+      "cancel": "Cancelar",
+      "savePlotShape": "Guardar forma de parcela",
+      "lowGPSAccuracy": "Baja precisión de GPS (%{accuracy}m)",
+      "mediumGPSAccuracy": "Precisión media de GPS (%{accuracy}m)",
+      "highGPSAccuracy": "Alta precisión de GPS (%{accuracy}m)",
+      "GPSAccuracyTitle": "Precisión de GPS insuficiente",
+      "GPSAccuracyMessage": "La precisión del GPS aún no es suficiente, espere unos segundos",
+      "ok": "OK",
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "notEnoughPointsTitle": "No hay suficientes puntos",
+      "notEnoughPointsMessage": "Por favor, añada al menos 3 puntos para crear una parcela",
+      "plotInformation": "Información de la parcela",
+      "name": "Nombre de la parcela",
+      "description": "Descripción",
+      "size": "Tamaño",
+      "savePlot": "Guardar parcela",
+      "discardChangesTitle": "Cambios no guardados",
+      "discardChangesMessage": "¿Está seguro de que desea salir del modo de mapeo? Se perderán los puntos registrados.",
+      "discardChangesButton": "Confirmar",
+      "error": "Error",
+      "errorMessage": "Error al guardar la parcela"
+    },
+    "totalArea": "área total",
+    "summaryTitle": "Resumen",
+    "plotsTitle": "Parcelas"
+  },
+  "synced": {
+    "itemNotSynced": "Elemento no sincronizado",
+    "noPlotGroups": "No hay grupos de parcelas para sincronizar",
+    "noPlots": "No hay parcelas para sincronizar",
+    "name": "Nombre",
+    "title": "Título",
+    "syncedTitle": "Sincronizado",
+    "syncedMessage": "Datos sincronizados con éxito",
+    "guestWarning": "Necesita tener una cuenta para sincronizar datos, haga clic en el botón de abajo para comenzar"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "yes": "Ja",
+  "no": "Nein",
+  "ok": "OK",
+  "loading": "Laden...",
+  "input": {
+    "type": "Typ...",
+    "select": "Auswählen"
+  },
+  "login": {
+    "welcomeBack": "Willkommen zurück!",
+    "welcomeBackSubtitle": "Melden Sie sich an, um fortzufahren",
+    "username": "Benutzername",
+    "usernamePlaceholder": "Geben Sie Ihren Benutzernamen ein",
+    "password": "Passwort",
+    "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+    "forgotPassword": "Passwort vergessen?",
+    "login": "Anmelden",
+    "genericError": "Etwas ist schief gelaufen, bitte versuchen Sie es später noch einmal",
+    "authError": "Falscher Benutzername oder Passwort",
+    "guest": "Gast"
+  },
+  "userSettings": {
+    "loggedInGuest": "Sie sind als Gast angemeldet",
+    "title": "Benutzereinstellungen",
+    "userInformation": "Benutzerinformationen",
+    "name": "Name",
+    "surname": "Nachname",
+    "username": "Benutzername",
+    "companyInformation": "Unternehmensinformationen",
+    "company": "Unternehmen",
+    "language": "Sprache",
+    "english": "Englisch",
+    "spanish": "Spanisch",
+    "german": "Deutsch",
+    "kinyarwanda": "Ikinyarwanda",
+    "offlineMaps": "Offline-Karten",
+    "offlineMapsSettings": "Offline-Karten-Einstellungen",
+    "resetPassword": "Passwort zurücksetzen",
+    "logOut": "Abmelden"
+  },
+  "home": {
+    "title": "Startseite",
+    "plotGroups": "Parzellengruppen",
+    "newPlot": "Neue Parzelle",
+    "syncData": "Daten synchronisieren"
+  },
+  "plotGroups": {
+    "title": "Parzellengruppen",
+    "titleNewPlot": "Wählen Sie eine Parzellengruppe",
+    "newPlotGroup": "Neue Parzellengruppe",
+    "search": "Suche",
+    "noData": "Keine Parzellengruppen gefunden",
+    "sort": {
+      "sortBy": "Sortieren nach",
+      "name": "Name",
+      "numberOfPlots": "Anzahl der Parzellen",
+      "id": "ID"
+    },
+    "errorFetch": "Fehler beim Abrufen der Parzellengruppen",
+    "card": {
+      "numberOfPlots": "Anzahl der Parzellen"
+    },
+    "newPlotGroupCreation": {
+      "savePlotGroup": "Parzellengruppe speichern",
+      "success": "Erfolg",
+      "successMessage": "Parzellengruppe erfolgreich erstellt",
+      "ok": "OK",
+      "error": "Fehler",
+      "errorMessage": "Fehler beim Erstellen der Parzellengruppe"
+    },
+    "info": {
+      "title": "Parzellengruppeninformationen",
+      "name": "Name"
+    },
+    "delete": {
+      "title": "Parzellengruppe löschen",
+      "message": "Sind Sie sicher, dass Sie diese Parzellengruppe löschen möchten?",
+      "cancel": "Abbrechen",
+      "delete": "Löschen",
+      "error": "Fehler",
+      "errorMessage": "Fehler beim Löschen der Parzellengruppe"
+    },
+    "delete-plot": {
+      "title": "Parzelle löschen",
+      "message": "Sind Sie sicher, dass Sie diese Parzelle löschen möchten?",
+      "cancel": "Abbrechen",
+      "delete": "Löschen",
+      "error": "Fehler",
+      "errorMessage": "Fehler beim Löschen der Parzelle"
+    }
+  },
+  "plots": {
+    "title": "Parzellen ansehen",
+    "listView": "Listenansicht",
+    "mapView": "Kartenansicht",
+    "mapDownload": "Karten herunterladen",
+    "mapTitle": "Kartentitel",
+    "noData": "Keine Parzellen gefunden",
+    "plots": "Parzelle(n)",
+    "summary": "Zusammenfassung",
+    "offlineMapsScreen": {
+      "downloadedMaps": "Heruntergeladene Karten",
+      "noMapsDownloaded": "Keine Offline-Karten heruntergeladen",
+      "selectYourOwnMap": "Wählen Sie Ihre eigene Karte",
+      "downloadThisMap": "Diese Karte herunterladen?",
+      "cancel": "Abbrechen",
+      "download": "Herunterladen",
+      "confirm": "Bestätigen",
+      "sizeWarning": "Downloads können bis zu %{size} MB Ihres freien Speichers beanspruchen",
+      "expires": "Läuft ab %{date}",
+      "delete": "Löschen",
+      "deleteAlert": "Sind Sie sicher, dass Sie diese Karte löschen möchten?",
+      "locationPermissionDeniedAlert": "Zugriff verweigert",
+      "locationPermissionDeniedAlertMessage": "Berechtigung zum Zugriff auf den Standort wurde verweigert",
+      "noAreaSelected": "Kein Bereich ausgewählt",
+      "noAreaSelectedMessage": "Bitte wählen Sie einen Bereich zum Herunterladen aus",
+      "errorTitle": "Fehler",
+      "errorDeleting": "Fehler beim Löschen des Pakets",
+      "errorDownloadingTitle": "Download-Fehler",
+      "errorDownloading": "Fehler beim Starten des Downloads"
+    },
+    "mapLoading": "Karte wird geladen",
+    "addPlot": {
+      "newPlot": "Neue Parzelle",
+      "addCurrentLocation": "Aktuellen Standort hinzufügen",
+      "cancel": "Abbrechen",
+      "savePlotShape": "Parzellenform speichern",
+      "lowGPSAccuracy": "Niedrige GPS-Genauigkeit (%{accuracy}m)",
+      "mediumGPSAccuracy": "Mittlere GPS-Genauigkeit (%{accuracy}m)",
+      "highGPSAccuracy": "Hohe GPS-Genauigkeit (%{accuracy}m)",
+      "GPSAccuracyTitle": "GPS-Genauigkeit unzureichend",
+      "GPSAccuracyMessage": "GPS-Genauigkeit noch nicht ausreichend, bitte warten Sie ein paar Sekunden",
+      "ok": "OK",
+      "undo": "Rückgängig",
+      "redo": "Wiederholen",
+      "notEnoughPointsTitle": "Nicht genug Punkte",
+      "notEnoughPointsMessage": "Bitte fügen Sie mindestens 3 Punkte hinzu, um eine Parzelle zu erstellen",
+      "plotInformation": "Parzelleninformationen",
+      "name": "Parzellenname",
+      "description": "Beschreibung",
+      "size": "Größe",
+      "savePlot": "Parzelle speichern",
+      "discardChangesTitle": "Ungespeicherte Änderungen",
+      "discardChangesMessage": "Sind Sie sicher, dass Sie den Mapping-Modus verlassen möchten? Die registrierten Punkte gehen verloren.",
+      "discardChangesButton": "Bestätigen",
+      "error": "Fehler",
+      "errorMessage": "Fehler beim Speichern der Parzelle"
+    },
+    "totalArea": "Gesamtfläche",
+    "summaryTitle": "Zusammenfassung",
+    "plotsTitle": "Parzellen"
+  },
+  "synced": {
+    "itemNotSynced": "Element nicht synchronisiert",
+    "noPlotGroups": "Keine Parzellengruppen zum Synchronisieren",
+    "noPlots": "Keine Parzellen zum Synchronisieren",
+    "name": "Name",
+    "title": "Titel",
+    "syncedTitle": "Synchronisiert",
+    "syncedMessage": "Daten erfolgreich synchronisiert",
+    "guestWarning": "Sie benötigen ein Konto, um Daten zu synchronisieren, klicken Sie auf die Schaltfläche unten, um zu beginnen"
+  }
+}

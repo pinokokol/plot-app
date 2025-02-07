@@ -1,0 +1,164 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "loading": "Loading...",
+  "input": {
+    "type": "Type...",
+    "select": "Select"
+  },
+  "login": {
+    "welcomeBack": "Welcome back!",
+    "welcomeBackSubtitle": "Log in to continue",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot password?",
+    "login": "Log in",
+    "genericError": "Something went wrong, please try again later",
+    "authError": "Wrong username or password",
+    "guest": "Guest"
+  },
+  "userSettings": {
+    "loggedInGuest": "You are logged in as guest",
+    "title": "User settings",
+    "userInformation": "User information",
+    "name": "Name",
+    "surname": "Surname",
+    "username": "Username",
+    "companyInformation": "Company information",
+    "company": "Company",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Español",
+    "german": "Deutsch",
+    "kinyarwanda": "Ikinyarwanda",
+    "offlineMaps": "Offline maps",
+    "offlineMapsSettings": "Offline maps settings",
+    "resetPassword": "Reset password",
+    "logOut": "Log out"
+  },
+  "home": {
+    "title": "Home",
+    "plotGroups": "Plot groups",
+    "newPlot": "New plot",
+    "syncData": "Sync data"
+  },
+  "plotGroups": {
+    "title": "Plot Groups",
+    "titleNewPlot": "Choose a plot group",
+    "newPlotGroup": "New plot group",
+    "search": "Search",
+    "noData": "No plot groups found",
+    "sort": {
+      "sortBy": "Sort by",
+      "name": "Name",
+      "numberOfPlots": "Number of plots",
+      "id": "ID"
+    },
+    "errorFetch": "Error fetching plot groups",
+    "card": {
+      "numberOfPlots": "Number of plots"
+    },
+    "newPlotGroupCreation": {
+      "savePlotGroup": "Save plot group",
+      "success": "Success",
+      "successMessage": "Plot group successfully created",
+      "ok": "OK",
+      "error": "Error",
+      "errorMessage": "There was an error creating the plot group"
+    },
+    "info": {
+      "title": "Plot group information",
+      "name": "Name"
+    },
+    "delete": {
+      "title": "Delete plot group",
+      "message": "Are you sure you want to delete this plot group?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "error": "Error",
+      "errorMessage": "There was an error deleting the plot group"
+    },
+    "delete-plot": {
+      "title": "Delete plot",
+      "message": "Are you sure you want to delete this plot?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "error": "Error",
+      "errorMessage": "There was an error deleting the plot"
+    }
+  },
+  "plots": {
+    "title": "View plots",
+    "listView": "List view",
+    "mapView": "Map view",
+    "mapDownload": "Map download",
+    "mapTitle": "Map title",
+    "noData": "No plots found",
+    "plots": "plot/s",
+    "summary": "Summary",
+    "offlineMapsScreen": {
+      "downloadedMaps": "Downloaded maps",
+      "noMapsDownloaded": "No offline maps downloaded",
+      "selectYourOwnMap": "Select your own map",
+      "downloadThisMap": "Download this map?",
+      "cancel": "Cancel",
+      "download": "Download",
+      "confirm": "Confirm",
+      "sizeWarning": "Downloads may take up to %{size} MB of your free space",
+      "expires": "Expires %{date}",
+      "delete": "Delete",
+      "deleteAlert": "Are you sure you want to delete this map?",
+      "locationPermissionDeniedAlert": "Access denied",
+      "locationPermissionDeniedAlertMessage": "Permission to access location was denied",
+      "noAreaSelected": "No area selected",
+      "noAreaSelectedMessage": "Please select an area to download",
+      "errorTitle": "Error",
+      "errorDeleting": "There was an error deleting the pack",
+      "errorDownloadingTitle": "Download Error",
+      "errorDownloading": "There was an error starting the download"
+    },
+    "mapLoading": "Loading map",
+    "addPlot": {
+      "newPlot": "New plot",
+      "addCurrentLocation": "Add current location",
+      "cancel": "Cancel",
+      "savePlotShape": "Save plot shape",
+      "lowGPSAccuracy": "Low GPS accuracy (%{accuracy}m)",
+      "mediumGPSAccuracy": "Medium GPS accuracy (%{accuracy}m)",
+      "highGPSAccuracy": "High GPS accuracy (%{accuracy}m)",
+      "GPSAccuracyTitle": "GPS accuracy insufficient",
+      "GPSAccuracyMessage": "GPS accuracy not sufficient yet, please wait a few seconds",
+      "ok": "OK",
+      "undo": "Undo",
+      "redo": "Redo",
+      "notEnoughPointsTitle": "Not enough points",
+      "notEnoughPointsMessage": "Please add at least 3 points to create a plot",
+      "plotInformation": "Plot information",
+      "name": "Plot name",
+      "description": "Description",
+      "size": "Size",
+      "savePlot": "Save plot",
+      "discardChangesTitle": "Unsaved changes",
+      "discardChangesMessage": "Are you sure you want to leave the mapping mode? The points registered will be lost.",
+      "discardChangesButton": "Confirm",
+      "error": "Error",
+      "errorMessage": "There was an error saving the plot"
+    },
+    "totalArea": "total area",
+    "summaryTitle": "Summary",
+    "plotsTitle": "Plots"
+  },
+  "synced": {
+    "itemNotSynced": "Item not synced",
+    "noPlotGroups": "No plot groups to sync",
+    "noPlots": "No plots to sync",
+    "name": "Name",
+    "title": "Title",
+    "syncedTitle": "Synced",
+    "syncedMessage": "Data successfully synced",
+    "guestWarning": "You need to have an account to sync data, click on the button below to get started"
+  }
+}

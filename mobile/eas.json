@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 7.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URI": "http://localhost:8888",
+        "EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN": ""
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URI": "http://localhost:8888",
+        "EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN": ""
+      },
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
